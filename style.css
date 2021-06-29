@@ -1,0 +1,321 @@
+
+html { overflow-x:hidden;}
+
+body{
+font-family: 'Pacifico', cursive;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url(img/menu.png)!important;
+}
+
+.log{
+  color: #d82f75;
+  font-family: 'Pacifico', cursive;
+}
+
+/*Light*/
+
+body.light .log{
+  color: rgb(248,188,255);
+  font-family: 'Pacifico', cursive;
+}
+
+.banner{
+    width: 100%;
+    font-family: 'Cinzel', serif;
+    height: 100%;
+    background: rgba;
+    background: rgba(255, 105, 180, 0.609);
+}
+
+/*Light*/
+body.light .banner{
+  width: 100%;
+  font-family: 'Cinzel', serif;
+  height: 100%;
+  background: rgba;
+  background: rgba(170, 62, 216, 0.63);
+}
+
+.labial{
+  width: 50px;
+  height: 50px;
+  background-image: url(img/labial-dark.png);
+}
+
+/*Light*/
+
+body.light .labial{
+  background: url(img/labial-light.png);
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+#img1{
+    background-image: url(img/fondo1.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+/*Light*/
+
+body.light #img1{
+  background-image: url(img/violet-fondo.jpg);
+  width: 100%;
+}
+
+.Prra{
+  color: rgb(223, 11, 127);
+  width: 99%;
+  margin-top: 40%;
+  text-align:center;
+}
+
+/*Light*/
+
+body.light .Prra{
+  font-size: 40px;
+  color: rgb(76, 12, 99);
+  width: 99%;
+  margin-top: 40%;
+  text-align:center;
+}
+
+
+.two{
+  width: 100%;
+  background-color: rgb(255,151,217);
+}
+
+/*Light*/
+
+body.light .two{
+  width: 100%;
+  background-color: rgb(171, 62, 216);
+}
+
+
+.description{
+  font-size: 20px;
+  margin-right: 60%!important;
+
+}
+
+.parraf{
+  font-size: 45px;
+  color:rgb(163, 12, 93);
+  display: flex;
+  text-align: center;
+  margin-right: 90px;
+  font-family: 'Cinzel', serif;
+}
+
+/*Light*/
+
+body.light .parraf{
+  font-size: 45px;
+  color:rgb(40, 5, 58);
+  display: flex;
+  text-align: center;
+  margin-right: 90px;
+  font-family: 'Cinzel', serif;
+}
+
+.img-wom{
+  width: 100%;
+  height: 100%;
+  background-image: url(img/wom.jpg);
+  background-repeat: no-repeat;
+  margin-left: 50px;
+}
+
+/*Light*/
+
+body.light .img-wom{
+  width: 100%;
+  height: 100%;
+  background-image: url(img/morad.jpg);
+  background-repeat: no-repeat;
+  margin-left: 50px;
+
+}
+
+.fondo2{
+  background-image: url(img/fondo2.jpg);
+  width: 100%;
+}
+
+/*Light*/
+
+body.light .fondo2{
+  background-image: url(img/violet-fondo2.jpg);
+  width: 100%;
+}
+
+.miniatura{
+  margin-top: 15px;
+}
+
+.card{
+  max-width: 280px;
+  max-height: 380px;
+  margin: 15px;
+  background: rgb(221, 33, 149);
+  color: rgb(248,188,255);
+  font-family: 'Cinzel', serif;
+}
+
+/*Light*/
+
+body.light .card{
+  max-width: 280px;
+  max-height: 380px;
+  margin: 15px;
+  background: rgb(75, 0, 129);
+  color: rgb(248,188,255);
+  font-family: 'Cinzel', serif;
+}
+
+.min{
+  width: 55px;
+  height: 55px;
+}
+
+.boton-agg{
+  background:rgb(248,188,255);
+  color: rgb(221, 33, 149);
+  cursor: pointer;
+  border-radius: 20px;
+  font-family: 'Pacifico', cursive;
+}
+
+/*Light*/
+
+body.light .boton-agg{
+  background: rgb(248,188,255);
+  color: rgb(75, 0, 129);
+  cursor: pointer;
+  border-radius: 20px;
+  font-family: 'Pacifico', cursive;
+}
+
+
+.boton-agg:hover{
+  background: rgb(247, 99, 215);
+}
+
+/*Light*/
+body.light .boton-agg:hover{
+  background: rgb(183, 117, 221);
+}
+
+.cuarto{
+  background:rgb(255,151,217);
+  width: 100%;
+}
+
+/*Light*/
+
+body.light .cuarto{
+  width: 100%;
+  background-color: rgb(120, 0, 178);
+}
+
+.list-group-item.active {
+  color: rgb(248,188,255);
+  background-color: rgb(221, 33, 149);
+  border-color: rgb(221, 33, 149);
+  font-family: 'Cinzel', serif;
+}
+
+/*Light*/
+
+body.light .list-group-item.active {
+  color: rgb(248,188,255);
+  background-color: rgb(75, 0, 129);
+  border-color: rgb(75, 0, 129);
+  font-family: 'Cinzel', serif;
+}
+
+.articulos{
+ background: rgb(221, 33, 149);
+ color: rgb(248,188,255);
+ font-family: 'Cinzel', serif;
+}
+
+/*Light*/
+body.light .articulos{
+ background:rgb(75, 0, 129);
+ color: rgb(248,188,255);
+ font-family: 'Cinzel', serif;
+}
+
+.lg-Pink{
+  color: rgb(221, 33, 149);
+  font-family: 'Cinzel', serif;
+}
+
+/*Light*/
+body.light .lg-Pink{
+  color: rgb(248,188,255);;
+  font-family: 'Cinzel', serif;
+}
+
+.equis{
+  width: 28px;
+  height: 28px;
+}
+
+
+.eliminar{
+  background-color: rgb(221, 33, 149);
+  color: rgb(248,188,255);
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/*Light*/
+
+body.light .eliminar{
+  background-color: rgb(101, 0, 153);
+  color: rgb(248,188,255);
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.eliminar:hover{
+  background-color: rgb(247, 99, 215);
+  color:rgb(248,188,255);
+  cursor: pointer;
+}
+
+/*Light*/
+
+body.light .eliminar:hover{
+  background-color: rgb(183, 117, 221);
+  color:rgb(248,188,255);
+  cursor: pointer;
+}
+
+.quinto{
+   background:rgb(255, 105, 180);
+  width: 100%;
+  font-family: 'Cinzel', serif;
+  color: rgb(248,188,255);
+  font-size: 40px;
+}
+
+/*Light*/
+
+body.light .quinto{
+  background:rgb(171, 62, 216);
+  width: 100%;
+  font-family: 'Cinzel', serif;
+  color: rgb(76, 12, 99);
+  font-size: 40px;
+}
+
+
+
